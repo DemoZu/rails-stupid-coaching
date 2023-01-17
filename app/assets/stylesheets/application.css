@@ -13,3 +13,52 @@
  *= require_tree .
  *= require_self
  */
+ #grad {
+  background-image: linear-gradient(to bottom right, red, yellow);
+
+}
+
+#grad-rainbow  {
+  background-image: linear-gradient(red, yellow, green);
+}
+
+div {
+  /* display: grid;
+  justify-content: center; */
+  width: 600px;
+  border: 12px solid rgb(178, 46, 163);
+  margin: auto;
+}
+
+#small-title {
+  display: grid;
+  justify-content: center;
+  width:300px;
+  text-align: center;
+  border: 3px solid green;
+  margin: auto;
+}
+
+p {
+  margin: 5px;
+  margin-bottom: 30px;
+}
+
+.top {
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  color:rgb(16, 117, 84);
+}
+
+#coach-says {
+  color:rgb(216, 23, 194);
+  font-weight: 900;
+}
+
+#extra-text {
+  color:rgb(24, 80, 2);
+  font-weight: 500;
+}

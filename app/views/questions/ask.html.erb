@@ -1,16 +1,23 @@
-
-<h1> Hello!</h1>
-<h3> "Say something to your coach. To exit say 'I am going to work!'"
-
+<div class='top'>
+<div class="container" id="grad">
+  <h1> <b> Welcome to Stupid Coaching! </b></h1>
+<p> </p>
+<h3 id="extra-text">
+  <ul>
+  <li> Are you confused and scared of life? </li>
+  <li> Are you not sure should you be working? </li>
+  <li> Say something to your coach and get valuable support from our specialist.</li>
+  <p> </p>
+  <p> To exit say 'I am going to work!'</p>
+<p> </p>
+<p> </p>
+</h3>
 <form action="answer" data-turbo="false">
-  <input type="text" name="answer" value="<%= params[:answer] %>">
-  <input type="submit" value="Ask!" >
+<p> </p>
+ <p> </p>
+  <input type="text" class="form-control form-control-lg" name="answer" value="<%= params[:answer] %>" placeholder="Ask something here">
+  <p> </p>
+  <input type="submit" role="button" value="Ask!" class="btn btn-success btn-lg" >
 </form>
-
-<%# <% loop do
-  puts
-  your_message = input.text
-  coach_answer_enhanced(your_message) unless coach_answer_enhanced(your_message) == nil?
-  coach_answer(your_message) unless coach_answer(your_message) == nil?
-  break if your_message == 'I am going to work right now!'
-end %>
+</div></div>
+</div>
