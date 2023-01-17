@@ -1,0 +1,14 @@
+<h1> Coach says </h1>
+
+<% def coach_answer
+    if @answer== "I am going to work!"
+      return "Great!"
+    elsif @answer.include? "?"
+      return "Silly question, get dressed and go to work!"
+    else
+      return "I don't care, get dressed and go to work!"
+    end
+end%>
+<h3> <%= coach_answer %><h3>
+
+<p> <%= link_to "Ask a new question", '/ask' %> </p>

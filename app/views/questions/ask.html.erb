@@ -1,0 +1,16 @@
+
+<h1> Hello!</h1>
+<h3> "Say something to your coach. To exit say 'I am going to work!'"
+
+<form action="answer" data-turbo="false">
+  <input type="text" name="answer" value="<%= params[:answer] %>">
+  <input type="submit" value="Ask!" >
+</form>
+
+<%# <% loop do
+  puts
+  your_message = input.text
+  coach_answer_enhanced(your_message) unless coach_answer_enhanced(your_message) == nil?
+  coach_answer(your_message) unless coach_answer(your_message) == nil?
+  break if your_message == 'I am going to work right now!'
+end %>
